@@ -15,9 +15,19 @@ body {
     color: var(--not_blue);
 }
 
-.nav-item {
+.navbar-brand:hover {
+    border-radius: 10px;
+    color: var(--light_blue);
+}
+
+.nav-link {
     font-size: 20px;
     color: var(--not_blue);
+}
+
+.nav-link:hover {
+    border-radius: 10px;
+    color: var(--light_blue);
 }
 
 .navbar {
