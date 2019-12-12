@@ -10,6 +10,12 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.container{
+
+    background-color: var(--light_blue);
+
+}
+
 .navbar-brand {
     font-size: 35px;
     color: var(--not_blue);
