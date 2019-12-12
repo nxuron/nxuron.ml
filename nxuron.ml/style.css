@@ -1,12 +1,25 @@
+:root {
+    --insane_blue:rgb(25, 59, 90);
+    --hard_blue: #006494;
+    --medium_blue:#247BA0;
+    --light_blue: #1B98E0;
+    --not_blue: #E8F1F2;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar-brand {
     font-size: 30px;
+    color: var(--not_blue);
 }
 
-.nav-link {
+.nav-item {
     font-size: 20px;
+    color: var(--not_blue);
 }
 
+.navbar {
+    background-color: var(--insane_blue);
+}
