@@ -1,5 +1,5 @@
 :root {
-    --insane_blue:rgb(25, 59, 90);
+    --insane_blue:#13293d;
     --hard_blue: #006494;
     --medium_blue:#247BA0;
     --light_blue: #1B98E0;
@@ -7,12 +7,18 @@
 }
 
 body {
+    background-color: #13293d;
+    color: #FFFFFF;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container-fluid{
-    margin-top: 10px;
-
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    radius:2%;
+    width:90%;
     background-color: var(--light_blue);
     color: var(--not_blue);
 }
