@@ -7,23 +7,22 @@
 }
 
 body {
-    background-color: #13293d;
+    background-image: url("https://i.redd.it/kvi1imz7ew341.jpg");
+    background-color: #13293d90;
     color: #FFFFFF;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container-fluid{
-    background-color: #16324f
+    background-color: #16324f90;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
     margin-top:1%;
     padding: 5%;
-    border-radius:5px;
     box-shadow: 5px 5px 8px 5px #000000 ;
     width:90%;
-    background-color: var(--light_blue);
-    color: var(--not_blue);
+    color: #FFFFFF
 }
 
 .navbar-brand {
