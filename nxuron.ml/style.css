@@ -10,10 +10,11 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container{
+.container-fluid{
+    margin-top: 10px;
 
     background-color: var(--light_blue);
-
+    color: var(--not_blue);
 }
 
 .navbar-brand {
@@ -38,4 +39,9 @@ body {
 
 .navbar {
     background-color: var(--insane_blue);
+}
+
+.container-paragraph-margin {
+    padding-left:5em;
+    padding-bottom: 20px;
 }
