@@ -8,19 +8,19 @@
 
 body {
     background-image: url("https://i.redd.it/kvi1imz7ew341.jpg");
-    background-color: #13293d90;
+    background-color: #13293dCC;
     color: #FFFFFF;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container-fluid{
-    background-color: #16324f90;
+    background-color: #16324fCC;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
     margin-top:1%;
     padding: 5%;
-    box-shadow: 5px 5px 8px 5px #000000 ;
+    box-shadow: 2px 2px 10px 2px #000000 ;
     width:90%;
     color: #FFFFFF
 }
