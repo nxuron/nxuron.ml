@@ -16,15 +16,17 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
+    margin-top:1%;
     padding: 5%;
-    radius:2%;
+    border-radius:5px;
+    box-shadow: 5px 5px 8px 5px #000000 ;
     width:90%;
     background-color: var(--light_blue);
     color: var(--not_blue);
 }
 
 .navbar-brand {
-    font-size: 35px;
+    font-size: 25px;
     color: var(--not_blue);
 }
 
@@ -34,7 +36,7 @@ body {
 }
 
 .nav-link {
-    font-size: 20px;
+    font-size: 15px;
     color: var(--not_blue);
 }
 
