@@ -12,7 +12,9 @@ body {
     color: #FFFFFF;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.navbar{
+    background-color: #555555;
+}
 .container-fluid{
     background-color: #16324fCC;
     margin-left: 5%;
