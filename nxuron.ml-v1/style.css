@@ -15,8 +15,12 @@ body {
     color: var(--white);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* NavBar */
+
 .navbar{
     background-color: #555555;
+<<<<<<< HEAD:nxuron.ml/style.css
 }
 .container-fluid{
     background-color: var(--bad_blue);
@@ -28,6 +32,9 @@ body {
     box-shadow: 2px 2px 10px 2px #000000 ;
     width:90%;
     color: var(--white);
+=======
+    opacity: .95;
+>>>>>>> 3b574156145ccbde8aed365cf5287fbb443a85a5:nxuron.ml-v1/style.css
 }
 
 .navbar-brand {
@@ -54,7 +61,32 @@ body {
     background-color: var(--insane_blue);
 }
 
+/* Containers */
+
 .container-paragraph-margin {
     padding-left:5em;
     padding-bottom: 20px;
+}
+
+.container-fluid{
+    background-color: #16324fCC;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top:1%;
+    padding: 5%;
+    box-shadow: 2px 2px 10px 2px #000000 ;
+    width:90%;
+    color: #FFFFFF
+}
+
+
+
+.card-link {
+    color: var(--not_blue);
+}
+
+.card-link:hover {
+    border-radius: 10px;
+    color: var(--light_blue);
 }
