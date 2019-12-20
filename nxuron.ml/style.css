@@ -17,6 +17,7 @@ body {
 
 .navbar{
     background-color: #555555;
+    opacity: .95;
 }
 
 .navbar-brand {
@@ -60,4 +61,15 @@ body {
     box-shadow: 2px 2px 10px 2px #000000 ;
     width:90%;
     color: #FFFFFF
+}
+
+
+
+.card-link {
+    color: var(--not_blue);
+}
+
+.card-link:hover {
+    border-radius: 10px;
+    color: var(--light_blue);
 }
