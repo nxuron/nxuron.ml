@@ -12,19 +12,11 @@ body {
     color: #FFFFFF;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* NavBar */
+
 .navbar{
     background-color: #555555;
-}
-.container-fluid{
-    background-color: #16324fCC;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
-    margin-top:1%;
-    padding: 5%;
-    box-shadow: 2px 2px 10px 2px #000000 ;
-    width:90%;
-    color: #FFFFFF
 }
 
 .navbar-brand {
@@ -51,7 +43,21 @@ body {
     background-color: var(--insane_blue);
 }
 
+/* Containers */
+
 .container-paragraph-margin {
     padding-left:5em;
     padding-bottom: 20px;
+}
+
+.container-fluid{
+    background-color: #16324fCC;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top:1%;
+    padding: 5%;
+    box-shadow: 2px 2px 10px 2px #000000 ;
+    width:90%;
+    color: #FFFFFF
 }
