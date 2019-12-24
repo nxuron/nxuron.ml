@@ -29,9 +29,12 @@
     color: var(--white);
 }
 
-.navbar .navbar-text a:hover,
+.navbar .navbar-text a:hover
+{
+    color: var(--lightorange)
+}
 .navbar .navbar-text a:focus {
-    color: var(--white);
+    color: var(--lightorange)
 }
 
 .navbar .navbar-nav .nav-link {
