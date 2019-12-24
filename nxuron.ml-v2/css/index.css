@@ -13,7 +13,10 @@
     color: var(--darkwhite);
 }
 
-.navbar .navbar-brand:hover,
+.navbar .navbar-brand:hover
+{
+    color: var(--lightorange)
+}
 .navbar .navbar-brand:focus {
     color: var(--white);
 }
