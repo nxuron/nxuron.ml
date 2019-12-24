@@ -1,7 +1,7 @@
 :root {
-    --darkgrey:#363636;
+    --darkgrey: #363636;
     --darkwhite: #f3f3f3;
-    --white:#ffffff;
+    --white: #ffffff;
 }
 
 .navbar {
@@ -50,8 +50,7 @@
     color: var(--darkwhite);
 }
 
-.navbar .navbar-nav .dropdown-menu .dropdown-item:hover {
-}
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover {}
 
 .navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
 .navbar .navbar-nav .dropdown-menu .dropdown-item.active {
@@ -182,6 +181,8 @@
 }
 
 #container {
-    background-image: url("/images/background.png");
+    height: 100vh;
+    width: 100vw;
     background-size: cover;
+    background-image: url("https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg");
 }
