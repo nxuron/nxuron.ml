@@ -186,45 +186,47 @@
     width: 100%;
 }
 
-#container {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-#frontText {
+#frontPage #frontText {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+#frontPage {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("../images/background.png");
+    /* --filter: brightness(50%); */
+    background-blend-mode: darken;
+}
+
+
+
 .navbar-dark {
     background-color: var(--darkgray);
 }
 
-#container {
-    height: 100vh;
-    background-size: cover;
-    background-image: url("../images/background.png");
-}
 
 
 #frontButton1 {
     display: -moz-inline-stack;
-   display: inline-block;
-   width: 391px;
-   height: 62px;
-   background: url("img/btncolor.png") no-repeat;
-   line-height: 62px;
-   vertical-align: text-middle;
-   text-align: center;
-   color: #ebe6eb;
-   font-family: Zenhei;
-   font-size: 39px;
-   font-weight: normal;
-   font-style: normal;
-   text-shadow: #222222 1px 1px 0;
+    display: inline-block;
+    width: 391px;
+    height: 62px;
+    background: url("img/btncolor.png") no-repeat;
+    line-height: 62px;
+    vertical-align: text-middle;
+    text-align: center;
+    color: #ebe6eb;
+    font-family: Zenhei;
+    font-size: 39px;
+    font-weight: normal;
+    font-style: normal;
+    text-shadow: #222222 1px 1px 0;
 }
 
 #frontButton1:hover{
