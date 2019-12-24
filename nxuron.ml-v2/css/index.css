@@ -203,8 +203,9 @@
     /* --filter: brightness(50%); */
     background-blend-mode: darken;
 }
-
-
+#frontPage img {
+    filter: brightness(90%);
+}
 
 .navbar-dark {
     background-color: var(--darkgray);
