@@ -46,7 +46,7 @@
 
 .navbar .navbar-nav .nav-link:not(.disabled):hover,
 .navbar .navbar-nav .nav-link:not(.disabled):focus {
-    color: var(--white);
+    color: var(--lightorange);
 }
 
 .navbar .navbar-nav .dropdown-menu {
@@ -87,7 +87,7 @@
 
 .navbar .navbar-nav .nav-item.active .nav-link,
 .navbar .navbar-nav .nav-item.show .nav-line{
-    color: var(--white);
+    color: var(--lightorange);
     background-color: var(--darkgray);
 }
 
@@ -140,7 +140,7 @@
         color: var(--lightorange);
     }
     .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
-        color: var(--white);
+        color: var(--lightorange);
         background-color: var(--darkgray);
     }
 }
