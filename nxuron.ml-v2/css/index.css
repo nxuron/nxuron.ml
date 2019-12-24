@@ -201,3 +201,7 @@
 }
 
 #frontButtons {}
+
+.to-left {
+    background-position: 100% 50%;
+  }
