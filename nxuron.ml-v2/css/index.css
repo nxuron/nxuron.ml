@@ -1,4 +1,6 @@
 #frontBG {
     width: 100%;
-
+}
+.navbar-dark {
+    background-color: #000000;
 }
