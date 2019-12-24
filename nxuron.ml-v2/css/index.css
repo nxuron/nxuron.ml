@@ -1,3 +1,10 @@
+:root {
+    --darkgrey:#363636;
+    --darkwhite: #f3f3f3;
+    --white:#ffffff;
+    --lightorange:
+}
+
 .navbar {
     background-color: #363636;
 }
@@ -41,7 +48,10 @@
 }
 
 .navbar .navbar-nav .dropdown-menu .dropdown-item {
-    color: #f3f3f3;
+    color: var(--darkwhite);
+}
+
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover {
 }
 
 .navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
