@@ -13,10 +13,10 @@
     color: var(--darkwhite);
 }
 
-.navbar .navbar-brand:hover
-{
+.navbar .navbar-brand:hover {
     color: var(--lightorange)
 }
+
 .navbar .navbar-brand:focus {
     color: var(--white);
 }
@@ -29,10 +29,10 @@
     color: var(--white);
 }
 
-.navbar .navbar-text a:hover
-{
+.navbar .navbar-text a:hover {
     color: var(--lightorange)
 }
+
 .navbar .navbar-text a:focus {
     color: var(--lightorange)
 }
