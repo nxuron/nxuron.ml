@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    padding:10px;
+    padding: 10px;
     background-color: var(--darkgray);
 }
 
@@ -62,7 +62,7 @@
     background-color: var(--lightorange);
 }
 
-.navbar .navbar-nav .dropdown-menu .dropdown-item:focus{
+.navbar .navbar-nav .dropdown-menu .dropdown-item:focus {
     color: var(--lightorange)
 }
 
@@ -75,18 +75,17 @@
     border-top-color: var(--darkgray);
 }
 
-.navbar .navbar-nav .nav-item.active .nav-link:hover
-.navbar .navbar-nav .nav-item.active .nav-link:focus{
+.navbar .navbar-nav .nav-item.active .nav-link:hover .navbar .navbar-nav .nav-item.active .nav-link:focus {
     color: var(--lightorange);
 }
 
 .navbar .navbar-nav .nav-item.show .nav-link:hover,
-.navbar .navbar-nav .nav-item.show .nav-link:focus{
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
     color: var(--lightorange);
 }
 
 .navbar .navbar-nav .nav-item.active .nav-link,
-.navbar .navbar-nav .nav-item.show .nav-line{
+.navbar .navbar-nav .nav-item.show .nav-line {
     color: var(--white);
     background-color: var(--darkgray);
 }
@@ -199,10 +198,11 @@
     color: white;
     height: 100vh;
     background-size: cover;
-    background-image: url("../images/background.png");
+    /*background-image: url("../images/background.png");*/
     /* --filter: brightness(50%); */
     background-blend-mode: darken;
 }
+
 #frontPage img {
     filter: brightness(90%);
 }
@@ -210,8 +210,6 @@
 .navbar-dark {
     background-color: var(--darkgray);
 }
-
-
 
 #frontButton1 {
     display: -moz-inline-stack;
@@ -230,6 +228,6 @@
     text-shadow: #222222 1px 1px 0;
 }
 
-#frontButton1:hover{
+#frontButton1:hover {
     background: #383;
 }
