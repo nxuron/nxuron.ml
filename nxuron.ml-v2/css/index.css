@@ -197,7 +197,7 @@
 #container {
     height: 100vh;
     background-size: cover;
-    background-image: url("./images/background.png");
+    background-image: url("../images/background.png");
 }
 
 #frontButtons {
@@ -211,7 +211,6 @@
     background-image: linear-gradient(#B17461, #B17461);
     background-repeat: no-repeat;
     transition: background-size .5s, color .5s;
-
 }
 
 .to-left {
