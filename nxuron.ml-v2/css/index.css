@@ -2,6 +2,7 @@
     --darkgrey: var(--darkgray);
     --darkwhite: var(--darkwhite);
     --white: var(--white);
+    --lightorange: 
 }
 
 .navbar {
@@ -51,7 +52,6 @@
 }
 
 .navbar .navbar-nav .dropdown-menu .dropdown-item:hover {
-    background-color: ;
 }
 
 .navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
