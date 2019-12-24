@@ -1,7 +1,7 @@
 :root {
-    --darkgrey: var(--darkgray);
-    --darkwhite: var(--darkwhite);
-    --white: var(--white);
+    --darkgrey:#363636;
+    --darkwhite: #f3f3f3;
+    --white:#ffffff;
 }
 
 .navbar {
@@ -51,7 +51,6 @@
 }
 
 .navbar .navbar-nav .dropdown-menu .dropdown-item:hover {
-    background-color: ;
 }
 
 .navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
