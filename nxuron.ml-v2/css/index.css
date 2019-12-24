@@ -200,19 +200,24 @@
     background-image: url("../images/background.png");
 }
 
-#frontButtons {
-    position: relative;
-    display: inline-block;
-    padding: 15px 70px;
-    border: 5px solid #B17461;
-    color: #B17461;
-    font-size: 30px;
-    font-family: arial;
-    background-image: linear-gradient(#B17461, #B17461);
-    background-repeat: no-repeat;
-    transition: background-size .5s, color .5s;
+
+#frontButton1 {
+    display: -moz-inline-stack;
+   display: inline-block;
+   width: 391px;
+   height: 62px;
+   background: url("img/btncolor.png") no-repeat;
+   line-height: 62px;
+   vertical-align: text-middle;
+   text-align: center;
+   color: #ebe6eb;
+   font-family: Zenhei;
+   font-size: 39px;
+   font-weight: normal;
+   font-style: normal;
+   text-shadow: #222222 1px 1px 0;
 }
 
-.to-left {
-    background-position: 100% 50%;
-  }
+#frontButton1:hover{
+    background: #383;
+}
