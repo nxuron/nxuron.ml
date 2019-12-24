@@ -181,3 +181,8 @@
 .navbar-dark {
     background-color: var(--darkgray);
 }
+
+#container {
+    background-image: url("/images/background.png");
+    background-size: cover;
+}
