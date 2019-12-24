@@ -158,8 +158,8 @@
 
 #container {
     position: relative;
-  text-align: center;
-  color: white;
+    text-align: center;
+    color: white;
 }
 
 #frontText {
@@ -171,4 +171,12 @@
 
 .navbar-dark {
     background-color: #363636;
+}
+
+
+/* MAIN */
+
+.containerOne,
+body {
+    background-image: url(images/background.jpeg);
 }
