@@ -197,18 +197,7 @@
 #container {
     height: 100vh;
     background-size: cover;
-    background-image: url("https://i.imgur.com/2tNQNyl.png");
+    background-image: url("/images/2tNQNyl.png");
 }
 
-#frontButtons {
-    position: relative;
-    display: inline-block;
-    padding: 15px 70px;
-    border: 5px solid #B17461;
-    color: #B17461;
-    font-size: 30px;
-    font-family: arial;
-    background-image: linear-gradient(#B17461, #B17461);
-    background-repeat: no-repeat;
-    transition: background-size .5s, color .5s;
-}
+#frontButtons {}
