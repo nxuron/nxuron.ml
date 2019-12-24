@@ -1,4 +1,4 @@
-.navbar {
+    .navbar {
     background-color: #363636;
 }
 
@@ -158,5 +158,17 @@
 
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
     color: #ffffff;
-    background-color: #363636;
-}
+    #container {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    #frontText {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .navbar-dark {
+        background-color: #363636;
+    }
