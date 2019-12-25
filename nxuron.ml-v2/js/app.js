@@ -3,14 +3,14 @@ particlesJS('particles-js',
     {
         "particles": {
             "number": {
-                "value": 159,
+                "value": 150,
                 "density": {
                     "enable": true,
                     "value_area": 800
                 }
             },
             "color": {
-                "value": "#ffffff"
+                "value": "#f8b195"
             },
             "shape": {
                 "type": "circle",
@@ -28,8 +28,8 @@ particlesJS('particles-js',
                 }
             },
             "opacity": {
-                "value": 0.5,
-                "random": false,
+                "value": 1,
+                "random": true,
                 "anim": {
                     "enable": false,
                     "speed": 1,
@@ -38,8 +38,8 @@ particlesJS('particles-js',
                 }
             },
             "size": {
-                "value": 1,
-                "random": true,
+                "value": 20,
+                "random": false,
                 "anim": {
                     "enable": false,
                     "speed": 40,
@@ -58,13 +58,13 @@ particlesJS('particles-js',
                 "enable": true,
                 "speed": 1,
                 "direction": "none",
-                "random": true,
+                "random": false,
                 "straight": false,
-                "out_mode": "bounce",
+                "out_mode": "out",
                 "bounce": false,
                 "attract": {
-                    "enable": true,
-                    "rotateX": 1200,
+                    "enable": false,
+                    "rotateX": 600,
                     "rotateY": 1200
                 }
             }
@@ -90,9 +90,9 @@ particlesJS('particles-js',
                     }
                 },
                 "bubble": {
-                    "distance": 100,
-                    "size": 5,
-                    "duration": 0.5,
+                    "distance": 60,
+                    "size": 30,
+                    "duration": 0.25,
                     "opacity": 0.5,
                     "speed": 3
                 },
@@ -108,9 +108,9 @@ particlesJS('particles-js',
                 }
             }
         },
-        "retina_detect": true
 
-            "retina_detect": true,
+        "retina_detect": true,
+
         "config_demo": {
             "hide_card": false,
             "background_color": "#b61924",
