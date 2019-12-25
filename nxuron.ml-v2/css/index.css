@@ -6,6 +6,10 @@
     --lightorange: #66FCF1;
 }
 
+.navbar {
+    background: none;
+}
+
 #frontBG {
     width: 100%;
 }
