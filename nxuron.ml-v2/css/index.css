@@ -120,10 +120,12 @@
     .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
         color: var(--darkwhite);
     }
+
     .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
     .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
         color: var(--white);
     }
+
     .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
         color: var(--white);
         background-color: var(--darkgray);
@@ -134,10 +136,12 @@
     .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
         color: var(--darkwhite);
     }
+
     .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
     .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
         color: var(--lightorange);
     }
+
     .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
         color: var(--white);
         background-color: var(--darkgray);
@@ -148,10 +152,12 @@
     .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
         color: var(--darkwhite);
     }
+
     .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
     .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
         color: var(--white);
     }
+
     .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
         color: var(--white);
         background-color: var(--darkgray);
@@ -162,10 +168,12 @@
     .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
         color: var(--darkwhite);
     }
+
     .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
     .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
         color: var(--white);
     }
+
     .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
         color: var(--white);
         background-color: var(--darkgray);
@@ -198,13 +206,13 @@
     color: white;
     height: 100vh;
     background-size: cover;
-    /*background-image: url("../images/background.png");*/
-    /* --filter: brightness(50%); */
+    /* background-image: url("../images/background.png"); */
+    /* filter: brightness(50%); */
     background-blend-mode: darken;
 }
 
 #frontPage img {
-    filter: brightness(90%);
+    /* filter: brightness(90%); */
 }
 
 .navbar-dark {
@@ -230,4 +238,18 @@
 
 #frontButton1:hover {
     background: #383;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 0;
 }
