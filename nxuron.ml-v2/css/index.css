@@ -21,6 +21,10 @@
     transform: translate(-50%, -50%);
 }
 
+#frontPage #frontText h1 {
+    font-size: 100px;
+}
+
 #frontPage {
     position: relative;
     text-align: center;
