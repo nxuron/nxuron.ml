@@ -1,8 +1,9 @@
 :root {
-    --darkgray: #272727;
-    --darkwhite: #f3f3f3;
+    --darkgray: #0b0C10;
+    --gray: #1F2833;
+    --darkwhite: #C5C6C7;
     --white: #ffffff;
-    --lightorange: #ff6600;
+    --lightorange: #66FCF1;
 }
 
 .navbar {
@@ -251,5 +252,5 @@ body {
 }
 
 #topSegment {
-    background-color: #355C7D;
+    background-color: var(--darkgray);
 }
