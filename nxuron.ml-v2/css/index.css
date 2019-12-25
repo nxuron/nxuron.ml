@@ -208,11 +208,16 @@
     /* filter: brightness(90%); */
 }
 
+.navbar-dark {
+    background-color: var(--darkgray);
+}
+
 #frontButtons {
     display: -moz-inline-stack;
     display: inline-block;
     width: 391px;
     height: 62px;
+    background: url("img/btncolor.png") no-repeat;
     line-height: 62px;
     vertical-align: text-middle;
     text-align: center;
@@ -229,7 +234,6 @@
 }
 
 #frontButtons:hover {
-    background-size: 100% 100%;
     background: #383;
 }
 
