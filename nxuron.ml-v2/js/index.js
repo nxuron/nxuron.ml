@@ -1,7 +1,4 @@
-//Particles
-window.onload = function () {
-    Particles.init({
-        selector: '.background',
-        color: '#294'
-    });
-};
+var particles = Particles.init({
+    selector: '.background',
+    color: '#DA0463'
+});
