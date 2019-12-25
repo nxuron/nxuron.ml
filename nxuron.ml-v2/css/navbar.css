@@ -1,8 +1,9 @@
 :root {
-    --darkgray: #272727;
-    --darkwhite: #f3f3f3;
+    --darkgray: #0b0C10;
+    --gray: #1F2833;
+    --darkwhite: #C5C6C7;
     --white: #ffffff;
-    --lightorange: #ff6600;
+    --lightorange: #66FCF1;
 }
 
 .navbar {
@@ -120,12 +121,10 @@
     .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
         color: var(--darkwhite);
     }
-
     .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
     .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
         color: var(--white);
     }
-
     .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
         color: var(--white);
         background-color: var(--darkgray);
@@ -136,12 +135,10 @@
     .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
         color: var(--darkwhite);
     }
-
     .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
     .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
         color: var(--lightorange);
     }
-
     .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
         color: var(--white);
         background-color: var(--darkgray);
@@ -152,12 +149,10 @@
     .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
         color: var(--darkwhite);
     }
-
     .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
     .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
         color: var(--white);
     }
-
     .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
         color: var(--white);
         background-color: var(--darkgray);
@@ -168,12 +163,10 @@
     .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
         color: var(--darkwhite);
     }
-
     .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
     .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
         color: var(--white);
     }
-
     .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
         color: var(--white);
         background-color: var(--darkgray);
