@@ -231,7 +231,8 @@
   display: inline-block;
   width: 391px;
   height: 62px;
-  background: url("img/btncolor.png") no-repeat;
+  outline-style: solid;
+  outline-color: #ff6600;
   line-height: 62px;
   vertical-align: text-middle;
   text-align: center;
