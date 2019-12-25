@@ -45,7 +45,7 @@
     line-height: 62px;
     vertical-align: text-middle;
     text-align: center;
-    color: #ebe6eb;
+    color: #45A29E;
     font-family: Zenhei;
     font-size: 39px;
     font-weight: normal;
@@ -58,7 +58,8 @@
 }
 
 #frontButtons:hover {
-    background: #383;
+    background-size: 100% 100%;
+    background: #45A29E;
 }
 
 html,
